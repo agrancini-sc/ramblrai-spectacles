@@ -1,0 +1,52 @@
+- !<Material/c3e31b1c-b6f4-45ab-af4a-25927d60d7f8>
+  PackagePath: ""
+  PassesInfo:
+    - !<own> ae66211f-b553-430f-b438-405a5cb79cbf
+- !<PassInfo/ae66211f-b553-430f-b438-405a5cb79cbf>
+  CachedProperties:
+    - Port_Default_N369:
+        typeIdx: 5
+        value: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  DepthWrite: true
+  DepthTest: true
+  DepthFunction: LessEqual
+  TwoSided: false
+  ColorMask: {x: true, y: true, z: true, w: true}
+  CullMode: Back
+  PolygonOffset: {x: 0.000000, y: 0.000000}
+  FrustumCulling: Auto
+  FrustumCullPad: 0.000000
+  InstanceCount: 1
+  Defines:
+    - ENABLE_BASE_TEX
+    - NODE_13_DROPLIST_ITEM 0
+    - NODE_27_DROPLIST_ITEM 0
+    - NODE_49_DROPLIST_ITEM 0
+    - NODE_69_DROPLIST_ITEM 0
+  BlendMode: AlphaTest
+  Properties:
+    Port_Default_N204:
+      typeIdx: 1
+      value: 0.000000
+    PreviewEnabled:
+      typeIdx: 0
+      value: 0
+    alphaTestThreshold:
+      typeIdx: 1
+      value: 0.500000
+    baseColor:
+      typeIdx: 5
+      value: {x: 0.820661, y: 0.828717, z: 0.828717, w: 1.000000}
+    baseTex:
+      typeIdx: 9
+      value:
+        id: 011782de-b215-4041-a5e7-b01fd40dd7c2
+        sampler:
+          filteringMode: Trilinear
+          wrapModeU: Repeat
+          wrapModeV: Repeat
+          wrapModeW: Repeat
+          borderColor: {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+          mipmaps: false
+        type: Texture2D
+  Pass: !<reference> c583ae70-2880-4a4f-882e-30908b14e8e6

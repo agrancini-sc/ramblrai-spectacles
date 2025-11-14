@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/41dae412-9f33-4b26-8097-7925a968c14e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 28c4bbf9-d30d-4869-a14b-24404436891c
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 28c4bbf9-d30d-4869-a14b-24404436891c
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 08acab52-1f86-4e64-add1-e93cd33beb83
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/08acab52-1f86-4e64-add1-e93cd33beb83>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 179aefea-b095-45e7-8fee-1339e437f54c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    aiAssistantPanel: false
+    closeButton: false
+    getStartedButton: false
+    hintPanel: false
+    iUnderstandButton: false
+    introPanel: false
+    spatialCluePanel: false
+    stepsPanel: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - introPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      stepsPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      aiAssistantPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      spatialCluePanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hintPanel: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      getStartedButton: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      closeButton: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      iUnderstandButton: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input SceneObject introPanel
+    - // @input SceneObject stepsPanel
+    - // @input SceneObject aiAssistantPanel
+    - // @input SceneObject spatialCluePanel
+    - // @input SceneObject hintPanel
+    - // @input AssignableType getStartedButton
+    - // @input AssignableType_1 closeButton
+    - // @input AssignableType_2 iUnderstandButton

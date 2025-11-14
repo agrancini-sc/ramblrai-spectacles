@@ -1,0 +1,59 @@
+- !<AssetImportMetadata/32c8c555-0ca7-4c7b-bfbf-4e156c93770e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> e51fa12a-3f5d-4980-b55f-6d634e204285
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> e51fa12a-3f5d-4980-b55f-6d634e204285
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7656f105-b671-437f-a4f3-9395ce0f9f72
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7656f105-b671-437f-a4f3-9395ce0f9f72>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 5eba49a6-1494-448a-b4f8-855b074d52b5
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    buttonPause: false
+    buttonPlay: false
+    buttonSeekBackwards: false
+    buttonSeekForward: false
+    sliderSeek: false
+    videoPlayback: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - buttonPlay: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      buttonPause: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      buttonSeekForward: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      buttonSeekBackwards: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      sliderSeek: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      videoPlayback: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - // @input AssignableType buttonPlay
+    - // @input AssignableType_1 buttonPause
+    - // @input AssignableType_2 buttonSeekForward
+    - // @input AssignableType_3 buttonSeekBackwards
+    - // @input AssignableType_4 sliderSeek
+    - // @input AssignableType_5 videoPlayback

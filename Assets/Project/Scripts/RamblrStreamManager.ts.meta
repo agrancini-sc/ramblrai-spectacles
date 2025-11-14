@@ -1,0 +1,99 @@
+- !<AssetImportMetadata/e09cace6-5290-44e3-a662-1dac6ddf8986>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> cbbffa38-1b8d-4fbd-bcb5-1cd975615c94
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> cbbffa38-1b8d-4fbd-bcb5-1cd975615c94
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 4af9fa25-bf7e-4731-b93f-034bca6cf475
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/4af9fa25-bf7e-4731-b93f-034bca6cf475>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  ComponentUid: 2270d98d-23ca-4909-bbc6-fffa0931ec1f
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    aiQueryText: false
+    aiResponseText: false
+    detectionFunctions: false
+    detectionTargets: false
+    imageSmallerDimension: false
+    instructionFunctions: false
+    instructionTargets: false
+    jpegQuality: false
+    maxConcurrentEncodes: false
+    stepNumberTexts: false
+    stepTexts: false
+    stepToggleButtons: false
+    stepToggleGroup: false
+    targetFrameRate: false
+    usePngEncoding: false
+    verboseLogging: false
+    videoFrameTexture: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - targetFrameRate: !<float> 3.000000
+      imageSmallerDimension: !<float> 756.000000
+      usePngEncoding: false
+      jpegQuality: 0.820000
+      verboseLogging: false
+      maxConcurrentEncodes: !<float> 2.000000
+      videoFrameTexture: !<reference.Texture> 00000000-0000-0000-0000-000000000000
+      stepToggleGroup: !<MappingBased.AssignableType> 00000000-0000-0000-0000-000000000000
+      stepToggleButtons: !<MappingBased.AssignableType_1[]>
+        []
+      stepTexts: !<reference.Text[]>
+        []
+      stepNumberTexts: !<reference.Text[]>
+        []
+      aiQueryText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      aiResponseText: !<reference.Text> 00000000-0000-0000-0000-000000000000
+      detectionTargets: !<reference.ScriptComponent[]>
+        []
+      detectionFunctions: !<string[]>
+        []
+      instructionTargets: !<reference.ScriptComponent[]>
+        []
+      instructionFunctions: !<string[]>
+        []
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @input float targetFrameRate = 3 {"hint":"Request still frames every N milliseconds"}'
+    - '// @input float imageSmallerDimension = 756 {"hint":"Camera smaller dimension (pixels). Leave 0 to use default"}'
+    - '// @input bool usePngEncoding {"hint":"Encode frames as PNG instead of JPEG"}'
+    - '// @input float jpegQuality = 0.82 {"hint":"JPEG quality 0-1 (ignored for PNG)"}'
+    - '// @input bool verboseLogging {"hint":"Enable verbose logging to the Lens Studio console"}'
+    - '// @input float maxConcurrentEncodes = 2 {"hint":"Maximum number of encode operations in flight"}'
+    - '// @input Asset.Texture videoFrameTexture {"hint":"Optional texture to stream instead of the live camera (e.g. video preview)"}'
+    - '// @input AssignableType stepToggleGroup {"hint":"Toggle group that highlights the current step"}'
+    - '// @input AssignableType_1[] stepToggleButtons = {} {"hint":"Optional explicit ordered list of step buttons"}'
+    - '// @input Component.Text[] stepTexts = {} {"hint":"Ordered text components for each visible step page"}'
+    - '// @input Component.Text[] stepNumberTexts = {} {"hint":"Optional text components used to show the numeric step labels"}'
+    - '// @input Component.Text aiQueryText {"hint":"Displays the latest AI query (optional)"}'
+    - '// @input Component.Text aiResponseText {"hint":"Displays the latest AI response (optional)"}'
+    - '// @input Component.ScriptComponent[] detectionTargets {"hint":"Scripts to notify when new detections arrive"}'
+    - '// @input string[] detectionFunctions {"hint":"Function names on detection targets to invoke"}'
+    - '// @input Component.ScriptComponent[] instructionTargets {"hint":"Scripts to notify when instruction updates arrive"}'
+    - '// @input string[] instructionFunctions {"hint":"Function names on instruction targets to invoke"}'
